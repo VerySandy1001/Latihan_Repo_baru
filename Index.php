@@ -10,26 +10,34 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f2f2f2;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
       text-align: center;
       padding-top: 40px;
+      color: #ffffff;
     }
     .box {
-      background: white;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
       width: 90%;
       max-width: 400px;
       margin: auto;
       padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      color: #ffffff;
     }
     button {
       padding: 10px 20px;
-      background: #4a6cf7;
-      color: white;
+      background: #ffb300;
+      color: #000;
+      font-weight: bold;
       border: none;
-      border-radius: 6px;
+      border-radius: 8px;
       cursor: pointer;
+      transition: 0.2s;
+    }
+    button:hover {
+      background: #ffcc33;
     }
   </style>
 </head>

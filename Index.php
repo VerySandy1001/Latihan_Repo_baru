@@ -1,5 +1,5 @@
 <?php
-// index.php sederhana
+
 ?>
 <!DOCTYPE html>
 <html lang="id">
